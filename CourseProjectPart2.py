@@ -36,7 +36,7 @@ def CalcTaxAndNetPay(hours, hourlyrate, taxrate):
 
 def printinfo(EmpDetailList):
     TotEmployees = 0
-    TotHours = 0.00
+    TotHours = 0.00 
     TotGrossPay = 0.00
     TotTax = 0.00
     TotNetPay = 0.00
