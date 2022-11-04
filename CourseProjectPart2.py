@@ -9,10 +9,10 @@ def GetDatesWorked():
     #Prompt the user for the dates in the following format: mm/dd/yyyy
     #no validations are needed for this input, we will assume the dates are entered correctly
 
-def fromdate():
-    hours = float(input('Enter Start Date:  '))
-def todate():
-    hours = float(input('Enter End Date:  '))
+    fromdate = float(input('Enter Start Date MM/DD/YYYY):  '))
+    todate = float(input('Enter End Date (MM/DD/YYYY):  '))
+    return(fromdate-todate).days
+
 
 
 
