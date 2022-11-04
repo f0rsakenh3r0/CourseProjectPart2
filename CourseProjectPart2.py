@@ -4,14 +4,15 @@
 def GetEmpName():
     empname = input("Enter employee name (END to terminate): ")
     return empname
-def GetDatesWorked():
+from datetime import date
+def GetDatesWorked(fromdate, todate):
     #write the code to input fromdate and todate and return the values from the function.  
     #Prompt the user for the dates in the following format: mm/dd/yyyy
     #no validations are needed for this input, we will assume the dates are entered correctly
-
-    fromdate = float(input('Enter Start Date MM/DD/YYYY):  '))
-    todate = float(input('Enter End Date (MM/DD/YYYY):  '))
-    return(fromdate-todate).days
+    
+    fromdate = date(input('Enter Start Date MM/DD/YYYY):  %m/%d,%Y'))
+    todate = date(input('Enter End Date (MM/DD/YYYY): %m/%d,%Y'))
+    return(fromdate - todate)
 
 
 
