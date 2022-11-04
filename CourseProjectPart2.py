@@ -5,7 +5,7 @@ def GetEmpName():
     empname = input("Enter employee name (END to terminate): ")
     return empname
 from datetime import date
-def GetDatesWorked(fromdate, todate):
+def GetDatesWorked():
     #write the code to input fromdate and todate and return the values from the function.  
     #Prompt the user for the dates in the following format: mm/dd/yyyy
     #no validations are needed for this input, we will assume the dates are entered correctly
