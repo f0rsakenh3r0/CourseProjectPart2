@@ -10,8 +10,8 @@ def GetDatesWorked():
     #Prompt the user for the dates in the following format: mm/dd/yyyy
     #no validations are needed for this input, we will assume the dates are entered correctly
     
-    fromdate = date(input('Enter Start Date MM/DD/YYYY):  %m/%d,%Y'))
-    todate = date(input('Enter End Date (MM/DD/YYYY): %m/%d,%Y'))
+    fromdate = int(input('Enter Start Date MM/DD/YYYY): '))
+    todate = int(input('Enter End Date (MM/DD/YYYY): '))
     return(fromdate - todate)
 
 
