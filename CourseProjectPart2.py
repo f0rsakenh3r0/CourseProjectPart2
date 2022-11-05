@@ -1,4 +1,4 @@
-#   Student Name
+#   Danny Fisher
 #   CIS261
 #   Project Phase 2
 def GetEmpName():
@@ -7,16 +7,10 @@ def GetEmpName():
 
 
 
-
-   
-
 def GetDatesWorked():
     fromdate = str(input('Enter Start Date (MM/DD/YYYY): '))
     todate = str(input('Enter End Date (MM/DD/YYYY): '))
     return fromdate, todate
- 
-   
- 
 
     #write the code to input fromdate and todate and return the values from the function.  
     #Prompt the user for the dates in the following format: mm/dd/yyyy
